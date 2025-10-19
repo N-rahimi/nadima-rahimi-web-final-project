@@ -1,0 +1,111 @@
+/* Dark Mode Styles (Default) */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #24292f;
+}
+
+body.light-mode .card {
+    background: #f6f8fa;
+    color: #24292f;
+    border: 1px solid #d0d7de;
+}
+
+body.light-mode .card-header {
+    background: #ffffff;
+    border-bottom: 1px solid #d0d7de;
+}
+
+body.light-mode .form-control,
+body.light-mode .form-select {
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    color: #24292f;
+}
+
+body.light-mode .form-control:focus,
+body.light-mode .form-select:focus {
+    background-color: #ffffff;
+    border-color: #0969da;
+    color: #24292f;
+    box-shadow: 0 0 0 0.2rem rgba(9, 105, 218, 0.25);
+}
+
+body.light-mode .nav-tabs {
+    border-bottom: 1px solid #d0d7de;
+}
+
+body.light-mode .nav-tabs .nav-link {
+    color: #656d76;
+}
+
+body.light-mode .nav-tabs .nav-link:hover {
+    color: #24292f;
+    border-color: #d0d7de;
+}
+
+body.light-mode .nav-tabs .nav-link.active {
+    color: #0969da;
+    background-color: #ffffff;
+    border-color: #d0d7de #d0d7de #ffffff;
+}
+
+body.light-mode .text-muted {
+    color: #656d76 !important;
+}
+
+body.light-mode .border {
+    border-color: #d0d7de !important;
+}
+
+body.light-mode .note-item,
+body.light-mode .quiz-option,
+body.light-mode .resource-item {
+    border-color: #d0d7de;
+}
+
+body.light-mode .quiz-option:hover {
+    background-color: #f6f8fa;
+}
+
+body.light-mode .quiz-option.selected {
+    background-color: #e1eafc;
+    border-color: #0969da;
+}
+
+body.light-mode .quiz-option.correct {
+    background-color: rgba(35, 134, 54, 0.1);
+    border-color: #238636;
+    color: #1a7f37;
+}
+
+body.light-mode .quiz-option.incorrect {
+    background-color: rgba(218, 54, 51, 0.1);
+    border-color: #da3633;
+    color: #cf222e;
+}
+
+body.light-mode .resource-item:hover {
+    background-color: #f6f8fa;
+    border-color: #0969da;
+}
+
+body.light-mode .resource-link {
+    color: #0969da;
+}
+
+/* Style for Light Mode Edit Button */
+body.light-mode .btn-outline-light.edit-btn {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+body.light-mode .btn-outline-light.edit-btn:hover {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}

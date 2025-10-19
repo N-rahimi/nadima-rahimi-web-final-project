@@ -1,0 +1,110 @@
+{
+    "schema": "pocket-classroom/v1",
+    "id": "web_basics_2024",
+    "title": "مبانی برنامه‌نویسی وب",
+    "subject": "برنامه‌نویسی",
+    "level": "beginner",
+    "description": "آموزش اصول اولیه HTML، CSS و JavaScript برای شروع برنامه‌نویسی وب",
+    "resources": [
+      {
+        "label": "مرجع کامل HTML - MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "label": "آموزش CSS - W3Schools",
+        "url": "https://www.w3schools.com/css/"
+      },
+      {
+        "label": "JavaScript Basics - JavaScript.info",
+        "url": "https://javascript.info/first-steps"
+      }
+    ],
+    "notes": [
+      "HTML برای ساختاردهی محتوای صفحات وب استفاده می‌شود",
+      "CSS برای استایل‌دهی و ظاهر صفحات وب به کار می‌رود",
+      "JavaScript برای افزودن تعامل و منطق به صفحات وب استفاده می‌شود",
+      "تگ‌های HTML باید به درستی بسته شوند تا صفحه به درستی نمایش داده شود",
+      "CSS می‌تواند به صورت inline، internal و external به صفحه اضافه شود"
+    ],
+    "flashcards": [
+      {
+        "front": "HTML چیست؟",
+        "back": "زبان نشانه‌گذاری ابرمتن برای ایجاد ساختار صفحات وب"
+      },
+      {
+        "front": "CSS چیست؟",
+        "back": "زبان شیوه‌نامه برای استایل‌دهی و طراحی صفحات وب"
+      },
+      {
+        "front": "JavaScript چیست؟",
+        "back": "زبان برنامه‌نویسی برای افزودن تعامل و منطق به صفحات وب"
+      },
+      {
+        "front": "تگ <div> چه کاربردی دارد؟",
+        "back": "برای گروه‌بندی و تقسیم‌بندی بخش‌های مختلف صفحه استفاده می‌شود"
+      },
+      {
+        "front": "Media Query در CSS چیست؟",
+        "back": "برای ایجاد طراحی واکنش‌گرا و تطبیق استایل‌ها با اندازه‌های مختلف صفحه"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "کدام تگ برای ایجاد لینک در HTML استفاده می‌شود؟",
+        "options": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<url>"
+        ],
+        "correctIndex": 1,
+        "explanation": "تگ <a> برای ایجاد هایپرلینک و لینک‌دهی به صفحات دیگر استفاده می‌شود. ویژگی href آدرس مقصد را مشخص می‌کند."
+      },
+      {
+        "question": "کدام ویژگی CSS برای تغییر رنگ متن استفاده می‌شود؟",
+        "options": [
+          "text-color",
+          "font-color", 
+          "color",
+          "text-style"
+        ],
+        "correctIndex": 2,
+        "explanation": "ویژگی color در CSS برای تعیین رنگ متن استفاده می‌شود. مقادیر آن می‌تواند نام رنگ، کد HEX یا RGB باشد."
+      },
+      {
+        "question": "کدام متد JavaScript برای نمایش پیغام استفاده می‌شود؟",
+        "options": [
+          "console.log()",
+          "alert()",
+          "print()",
+          "show()"
+        ],
+        "correctIndex": 1,
+        "explanation": "متد alert() برای نمایش یک پیغام در یک کادر محاوره‌ای به کاربر استفاده می‌شود."
+      },
+      {
+        "question": "کدام تگ برای ایجاد لیست مرتب شده استفاده می‌شود؟",
+        "options": [
+          "<ul>",
+          "<ol>",
+          "<li>",
+          "<list>"
+        ],
+        "correctIndex": 1,
+        "explanation": "تگ <ol> برای ایجاد لیست‌های مرتب شده (numbered) استفاده می‌شود در حالی که <ul> برای لیست‌های نامرتب (bullet points) به کار می‌رود."
+      },
+      {
+        "question": "کدام ویژگی برای تغییر فونت در CSS استفاده می‌شود؟",
+        "options": [
+          "text-font",
+          "font-family", 
+          "font-style",
+          "text-family"
+        ],
+        "correctIndex": 1,
+        "explanation": "ویژگی font-family برای تعیین خانواده فونت متن استفاده می‌شود. می‌توان چند فونت را به ترتیب اولویت مشخص کرد."
+      }
+    ],
+    "createdAt": "2024-01-15T10:00:00.000Z",
+    "lastUpdated": "2024-01-20T14:30:00.000Z"
+  }
